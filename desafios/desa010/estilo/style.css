@@ -23,4 +23,131 @@
     --font-titulo:'titulo', cursive;
     --font-tematica:'tematica', cursive;
 }
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
+body{
+    background-color: var(--cor3);
+}
+
+header{
+    right: auto;
+    background-color: var(--cor0);
+}
+
+header h1{
+    font-family: var(--font-titulo);
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.377);
+    text-align: center;
+    padding: 20px;
+}
+
+header p{
+    font-family: var(--font-padrao);
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: center;
+    padding: 25px;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.301);
+}
+
+nav{
+    background-color: var(--cor0);
+}
+nav a{
+    color: white;
+    font-family: var(--font-padrao);
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+nav a:hover{
+    background-color: var(--cor3);
+    color: black;
+    font-weight: bold;
+}
+
+main{
+    min-width: 280px;
+    max-width: 800px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
+}
+
+main h1{
+    font-family: var(--font-tematica);
+    color: var(--cor2);
+    padding-bottom: 15px;
+}
+main p{
+    font-family: var(--font-padrao);
+    text-align: justify;
+    text-indent: 25px;
+    font-size: 1em;
+    padding: 10px;
+    line-height: 1.5em;
+}
+main h2{
+    font-family: var(--font-tematica);
+    color: var(--cor2);
+    background-image: linear-gradient(to right, var(--cor4), white);
+    padding: 8px;
+    text-indent: 8px;
+}
+
+main img{
+    width: 100%;
+}
+
+main img.pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+div.video{
+    background-color: var(--cor0);
+    margin: 0px -20px 30px -20px;
+    padding: 25px;
+    position: relative;
+    padding-bottom: 75%;
+
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    width: 90%;
+    height: 70%;
+
+}
+
+aside{
+    font-family: var(--font-padrao);
+    background-color: var(--cor4);
+    box-shadow: 700px;
+    border-radius: 10px;
+    text-indent: 10px;
+    text-align: justify;
+    padding: 10px;
+}
+
+aside h3{
+    background-color: var(--cor3);
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    color: var(--cor2);
+}
+aside ul{
+    list-style-position: inside;
+    columns: 2;
+}
+    columns:
+}
