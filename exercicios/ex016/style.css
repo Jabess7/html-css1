@@ -30,3 +30,16 @@ h2{
 p{text-align: justify;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;    
+    margin: auto;
+    display: block;
+    padding: 15px;    
+}
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
