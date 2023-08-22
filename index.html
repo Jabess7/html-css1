@@ -6,7 +6,63 @@
     <title>Meu Repositorio</title>
     <style>
         body{
-            background-image: url(exercicios/ex022/imagens/wallpaper002.jpg);
+            height: 100vh;
+            background-color: rgba(29, 145, 120, 0.822); background-image: url(exercicios/ex022/imagens/wallpaper002.jpg);
+            background-position: ;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0px;
+        }
+        h1{
+            text-align: center;
+            color: white;
+            font-weight: bold;
+        }
+        p{
+            color: white;
+            text-align: center;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+        ul{
+            columns: 2;
+            padding: 10px;
+            list-style-type: '\2714\00A0\00A0';
+            list-style-position: inside;
+                      
+        }
+        li.b1{
+            background-color: rgb(100, 0, 139);
+            text-align: center;
+            width: 200px;
+            border: 2px solid black;
+            box-shadow: 1px;
+            padding: 15px;          
+        }
+        li.b2{
+            background-color: rgb(100, 0, 139);
+            text-align: center;
+            width: 200px;
+            border: 2px solid black;
+            box-shadow: 1px;
+            padding: 15px; 
+
+        }
+       
+        a{
+            color:white ;
+            text-decoration: none;
+            padding: 10px;
+            font-weight: 800;
+        }
+        a:hover{
+            text-decoration: underline;
+            
+        }
+        aside{
+            width: 500px;
+            margin: auto;
+            
         }
 
 
@@ -16,21 +72,23 @@
     </style>
 </head>
 <body>
-    <h1>
-        Curso de HTML5 e CSS3
-    </h1>
-    <p>
-        Estou aprendendo a criar sites e agora vou gerenciar meus repositorios!
-    </p>
-    <p>
-        Segue abaixo os links para os meus repositorios
-    </p>
-    <ul>
-        <li><a href="exercicio.html">Exercicio</a></li>
-        <li><a href="#">Desafio</a></li>
-
-
-    </ul>
+    <main>
+        <h1>
+            Curso de HTML5 e CSS3
+        </h1>
+        <p>
+            Estou aprendendo a criar sites e agora vou gerenciar meus repositorios!
+        </p>
+        <p>
+            Segue abaixo os links para os meus repositorios
+        </p>
+        <aside>
+            <ul>
+                <li class="b1"><a href="exercicio.html">Exercicio</a></li>
+                <li class="b2"><a href="#">Desafio</a></li>
+            </ul>
+        </aside>
+    </main>
 
 
 </body>
