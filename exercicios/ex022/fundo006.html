@@ -5,19 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{margin: 0px;}
         body{  
             height: 100vh;        
-            background-color: black;
+            /*background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
-            background-position: center ;
+            background-position: center center ;
             background-repeat:repeat-y; 
-            background-size: contain;  
+            background-size: cover;
+            background-attachment: fixed;*/ 
+            
+            /* Shorthand - background
+            color > image > position > repeat > [size] > attachment*/
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
         }
         main{
             background-color: white;
             text-indent: 2em;
             line-height: 1.5em;
-            width: 500px;
+            max-width: 750px;
             padding: 10px;
             margin: auto;
             border-radius: 14px;
